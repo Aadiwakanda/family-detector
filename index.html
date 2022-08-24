@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <title>Image recognition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+
+   <link rel="stylesheet" href="style.css">
+  
+  </head>
+  <body>
+    <div class="container">
+        <center>
+            <h3 class="btn btn-primary">FAMILY DETECTOR</h3>
+      <p style="font-size: 22px;">Model is trained to identify the following members: </p>
+      <b class="objects">
+        <p>MOM</p>
+        <hr>
+        <p>DAD</p>
+        <hr>
+        <P>SON</P>
+        <hr>
+        <p>CAT</p>
+        <hr>
+        <b>Webcam view:</b>
+        <a href="https://pranx.com/" class="lmao" id="trap"><p>DEFENITLY NOT SKETCHY!</p></a>
+        <a href="https://pranx.com/" class="lmao" id="trap1"><p>noT sKEtcHY!</p></a>
+        <img src="ad1.jpg" id="trap2" img align="left" style="height: 300px;">
+        <img src="ad2.jpg" id="trap3" img align="right" style="width: 250px; height: 300px;">
+
+
+        <div id="webcam">
+
+        </div>
+        <br>
+        <div id="result"></div>
+
+      <br><br>
+      <button class="btn btn-danger" onclick="takepic()">TAKE PHOTO</button>
+
+      <br><br>
+      <button class="btn btn-info" onclick="identify()">IDENTIFY THE IMAGE</button>
+
+      <br><br>
+
+      <p style="font-size: 22px;">Object :  <span id="object_ans"></span></p>
+      <p style="font-size: 22px;">Accuracy :  <span id="Accuracy"></span></p>
+    </center>
+
+  </div>
+  <hr>
+  <a href="https://theuselessweb.com/" class="lmao"><p>CLICK HERE TO GET FREE BITCOIN!!!!</p></a>
+
+  <a href="https://pranx.com/" class="lmao" id="trap"><p>CLICK ON ME!!!!</p></a>
+  <script src="main.js"></script>
+        </center>
+    </div>
+  </body>
+  </html>
